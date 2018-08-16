@@ -1,4 +1,4 @@
-# Odložená platba
+# react-typescript-devstack
 
 - Starter stack static sites
 
