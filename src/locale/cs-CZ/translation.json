@@ -1,0 +1,154 @@
+{
+    "routes": {
+        "Homepage": {
+            "title": "Typescript devstack Homepage"
+        }
+    },
+    "validation": {
+        "required": "Toto pole je povinné",
+        "wrongLength": "Pole musí mít {{length}} znaky",
+        "email": "Pole musí být validní email",
+        "birthNumber": {
+            "invalid": "Nesprávný formát rodného čísla",
+            "tooYoung": "Minimální věk je 18 let"
+        },
+        "phoneNumber": {
+            "nonCzechPrefix": "Neplatné předčíslí českého operátora",
+            "notCzechNumber": "Nejedná se o české číslo",
+            "mustHaveNineCharacters": "Číslo musí obsahovat 9 znaků"
+        },
+        "birthDate":{
+            "invalidDate":"Nesprávné datum narození",
+            "tooYoung": "Minimální věk je 18 let"
+        },
+        "bankAccount": "Neexistující číslo účtu"
+    },
+    "containers": {
+        "Introduction": {
+            "title": "Zboží teď, platba později. Jak to funguje?",
+            "firstParagraph": "Naši odloženou platbu vyřídíte <0>online během 1 minuty</0>. Nepotřebujete do konce žadné doklady.",
+            "secondParagraph": "Nakoupíte v e-shopu tak jako obvykle. Zatím vás nákup nestojí ani korunu. <0>O platbu se postaráme my</0>.",
+            "thirdParagraph": "My vám pošleme informace jak nám zaplatíte. <0>Do 30 dnů zaplatíte stejnou částku</0>, bez žádných úroků ani poplatků.",
+            "fourthParagraph": "Nebo můžete <0>platbu odložit až o rok</0> a zaplatit ji po měsíčních splátkách s malým úrokem. Vše máte pod kontrolou v našem internetovém bankovnictví.",
+            "continue": "To zní dobře, začneme",
+            "disclaimer": "Poskytovatelem služby je Equa bank a.s. Osobní údaje poskytnuté v rámci žádosti o odloženou platbu budou zpracované v souladu s <0>obchodními podmínkami</0>.",
+            "disclaimerLinkText": "obchdoními podmínkami"
+        },
+        "KnownUserBirthDatePage":{
+            "title": "Zadejte datum narození",
+            "continue": "Pokračovat",
+            "day":"Den",
+            "month":"Měsíc",
+            "year":"Rok",
+            "verifying": "Ověřuji"
+        },
+        "PhonePage": {
+            "title": "Zadejte telefonní číslo",
+            "description": "Na toto číslo zašleme ověřovací SMS, která slouží k potvrzení žádosti o odloženou platbu.",
+            "countryPrefix": "Předvolba",
+            "phoneNumber": "Telefonní číslo",
+            "continue": "Pokračovat",
+            "sending": "Odesílám"
+        },
+        "PhoneNumber": {
+            "prefix": "Předvolba",
+            "number": "Telefonní číslo"
+        },
+        "SmsVerification": {
+            "description": "Zadejte SMS kód, který jsme zaslali na číslo",
+            "smsNotReceived": "Nepřišla vám SMS? Zkontrolujte si telefonní číslo a případně ho opravte.",
+            "fixNumber": "Opravit telefonní číslo",
+            "isNumberCorrect": "Je telefonní číslo správně, ale SMS vám přesto nedorazila?",
+            "resendSms": "Odeslat novou SMS",
+            "continue": "Pokračovat"
+        },
+        "BirthNumber": {
+            "title": "Zadejte rodné číslo",
+            "birthNumber": "Rodné číslo",
+            "continue": "Pokračovat",
+            "verifying": "Ověřuji"
+        },
+        "TelcoScore": {
+            "title": "Souhlas se získáním údaje TelcoScore",
+            "description": "V rámci urychlení vyhodnocení žádosti bychom rádi získali Váš souhlas pro vyžádání tzv. TelcoScore od Vašeho telefonního operátora. <0>Co je TelcoScore?</0>",
+            "accept": "Souhlasím",
+            "reject": "Pokračovat bez souhlasu",
+            "termsConditions": {
+                "title": "Souhlasíte s tím, aby",
+                "a": "Equa bank a.s., IČO 47116102 v souvislosti s Vaší žádostí o uzavření smlouvy předala Vaše telefonní číslo a/nebo rodné číslo operátorům:O2 Czech Republic a.s., IČO 60193336 a virtuálnímu operátorovi O2 Family, s.r.o., IČO    24215554 (100% dceřiná společnost O2 Czech Republic a.s.), T-Mobile Czech Republic, a.s., IČO 64949681 a Vodafone Czech Republic a.s., IČO 25788001;",
+                "b": "operátoři jednotlivě zpracovali Vaše telefonní a/nebo rodné číslo za účelem vytvoření agregované informace vypočtené z údajů o způsobu využití služeb elektronických komunikací (platbách, druhu, množství, místě) vedených na Vaši osobu nebo z údajů o způsobu využití služeb elektronických komunikací poskytovaných na telefonním čísle, jehož jste uživatelem, a předali tuto agregovanou informaci Equa bank a.s. za účelem posouzení Vaši schopnosti a ochoty plnit své závazky. Prohlašujete, že telefonní číslo uvedené v žádosti je ve Vašem výlučném osobním užívání.",
+                "withdrawal": "Jste si vědom/a, že souhlas můžete odvolat způsobem <0>uvedeným zde</0>",
+                "moreDetails": "Více informací naleznete na <0>www.equabank.cz/osobniudaje</0>"
+            }
+        },
+        "Evaluation": {
+            "loading": {
+                "title": "Probíhá vyhodnocení vaši žádosti…",
+                "content": "Prosíme o chvilku strpení. Vysledek vyhodnocení se dozvíte během 15 vteřin."
+            }
+        },
+        "BankNumber": {
+            "title": "Číslo účtu",
+            "bankAccountPrefix": "Předčíslí",
+            "bankAccountNumber": "Číslo účtu",
+            "bankCode": "Banka",
+            "continue": "Pokračovat",
+            "hint": "Číslo účtu potřebujeme pro účely ověření vaší identity."
+        },
+        "FinalPage": {
+            "approved": {
+                "title": "Žádost schválená",
+                "content": "Všechno proběhlo v pořádku. Nyní budete přesměrování zpátky na stránky e-shopu {{merchantName}}"
+            },
+            "rejected": {
+                "title": "Žádost zamítnuta",
+                "content": "Litujeme, odloženou platbu Vám poskytnout nemůžeme. Nyní budete přesměrováni na stránky e-shopu {{merchantName}} k výběru jiného způsobu platby."
+            },
+            "error": {
+                "title": "Během vyhodnocení žádosti nastala chyba",
+                "content": "Během vyhodnocení žádosti došlo k technickým problémům. Můžete zkusit odeslat žádost znovu, nebo přejít na stránky e-shopu {{merchantName}} pro výběr jiného způsobu platby."
+            },
+            "backButton": "Zpět do e-shopu"
+        },
+        "UnknownUser": {
+            "title": "Osobní údaje",
+            "firstName": "Jméno",
+            "lastName": "Příjmení",
+            "birthNumber": "Rodné číslo",
+            "email": "E-mail",
+            "address": "Adresa trvalého bydliště",
+            "continue": "Pokračovat",
+            "modal": {
+                "title": "Opravdu se jmenujete <0>{{name}}</0>?",
+                "okText": "Ano, pokračovat",
+                "cancelText": "Ne, opravit jméno"
+            }          
+        }
+    },
+    "components": {
+        "Overview": {
+            "yourPurchase": "Váš nákup",
+            "differentPaymentType": "Jiný způsob platby",
+            "chooseDifferentPaymentType": "Vyberte jiný způsob platby"
+        },
+        "Autocomplete": {
+            "NoOptionsMessage": "Žádné položky"
+        },
+        "Footer": {
+            "privacyPolicy": "Ochrana osobních údajů",
+            "termsConditions": "Podmínky použití",
+            "allRightsReserved": "Všechna práva vyhrazena"
+        }
+    },
+    "common": {
+        "back": "Zpět"
+    },
+    "pages": {
+        "welcome": "Vítejte",
+        "introduction": "Úvod",
+        "confirmationSms": "Ověřovací SMS",
+        "additionalVerification": "Dodatečné ověření",
+        "telcoScore": "Telco skóre",
+        "confirmation": "Potvrzení"
+    }
+}

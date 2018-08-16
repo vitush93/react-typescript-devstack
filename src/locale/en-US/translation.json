@@ -1,0 +1,12 @@
+{
+    "webTitle": "English version",
+
+    "containers": { 
+        "PhonePage": {
+            "title": "Enter your phone number",
+            "description": "Phone number serves for SMS authorization of delayed payment.",
+            "phonePrefix": "Prefix",
+            "phoneNumber": "Phone number"
+        }
+    }
+}

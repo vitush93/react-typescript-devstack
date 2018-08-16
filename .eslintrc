@@ -1,0 +1,84 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/all"
+  ],
+  "plugins": [
+    "react"
+  ],
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true,
+    "jest": true
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2015,
+    "ecmaFeatures": {
+      "jsx": true,
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "settings": {
+    "flowtype": {
+      "onlyFilesWithFlowAnnotation": true
+    }
+  },
+  "globals": {
+    "__DEVELOPMENT__": true,
+    "__STAGING__": true,
+    "__PRODUCTION__": true,
+    "__dirname": true
+  },
+  "rules": {
+    "no-multiple-empty-lines": [
+      "error",
+      {
+        "max": 2
+      }
+    ],
+    "indent": [
+      "error",
+      4,
+      {
+        "SwitchCase": 1,
+        "VariableDeclarator": 1
+      }
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "keyword-spacing": [
+      "error",
+      {
+        "before": true,
+        "after": true
+      }
+    ],
+    "comma-dangle": [
+      "error",
+      "always-multiline"
+    ],
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ],
+    "space-unary-ops": [
+      "error",
+      {
+        "overrides": {
+          "!": true
+        }
+      }
+    ],
+    "camelcase": [
+      "error",
+      {
+        "properties": "always"
+      }
+    ],
+    "no-nested-ternary": 1
+  }
+}

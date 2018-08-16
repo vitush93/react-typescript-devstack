@@ -1,0 +1,14 @@
+{
+    "path-intellisense.mappings": {
+        "assets/*": "${workspaceRoot}/src/assets/*",
+        "lib/*": "${workspaceRoot}/src/lib/*",
+        "store/*": "${workspaceRoot}/src/store/*",
+        "stylesheets/*": "${workspaceRoot}/src/stylesheets/*",
+        "utils/*": "${workspaceRoot}/src/utils/*",
+        "view/*": "${workspaceRoot}/src/view/*",
+        "components/*": "${workspaceRoot}/src/view/components/*",
+        "containers/*": "${workspaceRoot}/src/view/containers/*",
+        "routes/*": "${workspaceRoot}/src/view/routes/*",
+        "templates/*": "${workspaceRoot}/src/view/templates/*",
+    }
+}

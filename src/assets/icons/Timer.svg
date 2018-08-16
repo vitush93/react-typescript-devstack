@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="36px" viewBox="0 0 33 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Timer</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Timer" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill-rule="nonzero">
+            <rect id="Bounds" x="0" y="0" width="33" height="36"></rect>
+            <g id="Group" transform="translate(4.000000, 2.000000)" fill="#45B0D8" stroke="#45B0D8" stroke-width="0.5">
+                <rect id="Rectangle-path" transform="translate(9.416847, 9.628293) rotate(-45.000000) translate(-9.416847, -9.628293) " x="8.86175606" y="5.62710015" width="1.11018219" height="8.00238538"></rect>
+                <path d="M12.2121212,24.9722222 C5.49545455,24.9722222 0,19.3534722 0,12.4861111 C0,9.19431818 1.27672176,6.0727904 3.60812672,3.68907828 L4.38526171,4.48364899 C2.27589532,6.64034091 1.11019284,9.47809343 1.11019284,12.4861111 C1.11019284,18.7291667 6.10606061,23.8371212 12.2121212,23.8371212 C18.3181818,23.8371212 23.3140496,18.7291667 23.3140496,12.4861111 C23.3140496,6.41332071 18.6512397,1.41887626 12.7672176,1.13510101 L12.7672176,6.24305556 L11.6570248,6.24305556 L11.6570248,0 L12.2121212,0 C18.9287879,0 24.4242424,5.61875 24.4242424,12.4861111 C24.4242424,19.3534722 18.9287879,24.9722222 12.2121212,24.9722222 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
